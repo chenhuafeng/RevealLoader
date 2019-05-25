@@ -18,7 +18,6 @@
 		B9FB6AE6229940F5002E22DF /* RevealLoader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RevealLoader.plist; path = Package/Library/PreferenceLoader/Preferences/RevealLoader.plist; sourceTree = "<group>"; };
 		B9FB6AE7229940F5002E22DF /* RevealLoaderIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RevealLoaderIcon.png; path = Package/Library/PreferenceLoader/Preferences/RevealLoaderIcon.png; sourceTree = "<group>"; };
 		B9FB6AE8229940F5002E22DF /* RevealLoaderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RevealLoaderIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/RevealLoaderIcon@2x.png"; sourceTree = "<group>"; };
-		B9FB6AEA229940F5002E22DF /* RevealLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RevealLoader-Prefix.pch"; sourceTree = "<group>"; };
 		B9FB6AF0229940F5002E22DF /* RevealLoader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RevealLoader.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/RevealLoader.plist; sourceTree = "<group>"; };
 		B9FB6B0D22994A0D002E22DF /* RevealLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,7 +116,6 @@
 		B9FB6AE9229940F5002E22DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B9FB6AEA229940F5002E22DF /* RevealLoader-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -302,7 +300,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RevealLoader/RevealLoader-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/RevealLoader/Info.plist";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
 				MonkeyDevBuildPackageOnAnyBuild = NO;
@@ -332,7 +329,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RevealLoader/RevealLoader-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/RevealLoader/Info.plist";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
 				MonkeyDevBuildPackageOnAnyBuild = NO;

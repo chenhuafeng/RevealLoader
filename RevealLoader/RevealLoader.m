@@ -5,6 +5,7 @@
 //  Created by 陈华锋 on 2019/5/25.
 //
 
+#import <Foundation/Foundation.h>
 #import <CaptainHook/CaptainHook.h>
 #include <dlfcn.h>
 

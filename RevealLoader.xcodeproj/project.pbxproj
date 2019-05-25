@@ -16,10 +16,10 @@
 		B9FB6ADD229940F5002E22DF /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
 		B9FB6AE2229940F5002E22DF /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		B9FB6AE6229940F5002E22DF /* RevealLoader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RevealLoader.plist; path = Package/Library/PreferenceLoader/Preferences/RevealLoader.plist; sourceTree = "<group>"; };
-		B9FB6AE7229940F5002E22DF /* RevealLoaderIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RevealLoaderIcon.png; path = Package/Library/PreferenceLoader/Preferences/RevealLoaderIcon.png; sourceTree = "<group>"; };
 		B9FB6AE8229940F5002E22DF /* RevealLoaderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RevealLoaderIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/RevealLoaderIcon@2x.png"; sourceTree = "<group>"; };
 		B9FB6AF0229940F5002E22DF /* RevealLoader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RevealLoader.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/RevealLoader.plist; sourceTree = "<group>"; };
 		B9FB6B0D22994A0D002E22DF /* RevealLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealLoader.m; sourceTree = "<group>"; };
+		B9FB6B12229950CB002E22DF /* RevealLoaderIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RevealLoaderIcon@3x.png"; path = "Package/Library/PreferenceLoader/Preferences/RevealLoaderIcon@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				B9FB6AE6229940F5002E22DF /* RevealLoader.plist */,
-				B9FB6AE7229940F5002E22DF /* RevealLoaderIcon.png */,
 				B9FB6AE8229940F5002E22DF /* RevealLoaderIcon@2x.png */,
+				B9FB6B12229950CB002E22DF /* RevealLoaderIcon@3x.png */,
 			);
 			name = Preferences;
 			sourceTree = "<group>";

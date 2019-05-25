@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9FB6ADE229940F5002E22DF /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB6ADD229940F5002E22DF /* CydiaSubstrate.framework */; };
+		B9FB6B0F22994A0D002E22DF /* RevealLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FB6B0D22994A0D002E22DF /* RevealLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9FB6AD6229940F5002E22DF /* RevealLoader.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = RevealLoader.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FB6ADD229940F5002E22DF /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		B9FB6AE2229940F5002E22DF /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		B9FB6AE6229940F5002E22DF /* RevealLoader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RevealLoader.plist; path = Package/Library/PreferenceLoader/Preferences/RevealLoader.plist; sourceTree = "<group>"; };
+		B9FB6AE7229940F5002E22DF /* RevealLoaderIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RevealLoaderIcon.png; path = Package/Library/PreferenceLoader/Preferences/RevealLoaderIcon.png; sourceTree = "<group>"; };
+		B9FB6AE8229940F5002E22DF /* RevealLoaderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RevealLoaderIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/RevealLoaderIcon@2x.png"; sourceTree = "<group>"; };
+		B9FB6AEA229940F5002E22DF /* RevealLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RevealLoader-Prefix.pch"; sourceTree = "<group>"; };
+		B9FB6AF0229940F5002E22DF /* RevealLoader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RevealLoader.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/RevealLoader.plist; sourceTree = "<group>"; };
+		B9FB6B0D22994A0D002E22DF /* RevealLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealLoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9FB6AD2229940F5002E22DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FB6ADE229940F5002E22DF /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9FB6ACB229940F5002E22DF = {
+			isa = PBXGroup;
+			children = (
+				B9FB6ADF229940F5002E22DF /* RevealLoader */,
+				B9FB6AD8229940F5002E22DF /* Frameworks */,
+				B9FB6AD7229940F5002E22DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9FB6AD7229940F5002E22DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6AD6229940F5002E22DF /* RevealLoader.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9FB6AD8229940F5002E22DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6ADD229940F5002E22DF /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9FB6ADF229940F5002E22DF /* RevealLoader */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6B0D22994A0D002E22DF /* RevealLoader.m */,
+				B9FB6AE0229940F5002E22DF /* Package */,
+				B9FB6AE9229940F5002E22DF /* Supporting Files */,
+			);
+			path = RevealLoader;
+			sourceTree = "<group>";
+		};
+		B9FB6AE0229940F5002E22DF /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6AE1229940F5002E22DF /* DEBIAN */,
+				B9FB6AE3229940F5002E22DF /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		B9FB6AE1229940F5002E22DF /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6AE2229940F5002E22DF /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		B9FB6AE3229940F5002E22DF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6AE4229940F5002E22DF /* PreferenceLoader */,
+				B9FB6AEE229940F5002E22DF /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		B9FB6AE4229940F5002E22DF /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6AE5229940F5002E22DF /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		B9FB6AE5229940F5002E22DF /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6AE6229940F5002E22DF /* RevealLoader.plist */,
+				B9FB6AE7229940F5002E22DF /* RevealLoaderIcon.png */,
+				B9FB6AE8229940F5002E22DF /* RevealLoaderIcon@2x.png */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		B9FB6AE9229940F5002E22DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6AEA229940F5002E22DF /* RevealLoader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9FB6AEE229940F5002E22DF /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6AEF229940F5002E22DF /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		B9FB6AEF229940F5002E22DF /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB6AF0229940F5002E22DF /* RevealLoader.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B9FB6AD3229940F5002E22DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B9FB6AD5229940F5002E22DF /* RevealLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FB6AF3229940F5002E22DF /* Build configuration list for PBXNativeTarget "RevealLoader" */;
+			buildPhases = (
+				B9FB6AD1229940F5002E22DF /* Sources */,
+				B9FB6AD2229940F5002E22DF /* Frameworks */,
+				B9FB6AD3229940F5002E22DF /* Headers */,
+				B9FB6AD4229940F5002E22DF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealLoader;
+			productName = RevealLoader;
+			productReference = B9FB6AD6229940F5002E22DF /* RevealLoader.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9FB6ACC229940F5002E22DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					B9FB6AD5229940F5002E22DF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B9FB6ACF229940F5002E22DF /* Build configuration list for PBXProject "RevealLoader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9FB6ACB229940F5002E22DF;
+			productRefGroup = B9FB6AD7229940F5002E22DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9FB6AD5229940F5002E22DF /* RevealLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9FB6AD4229940F5002E22DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9FB6AD1229940F5002E22DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FB6B0F22994A0D002E22DF /* RevealLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9FB6AF1229940F5002E22DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"RevealLoader\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9FB6AF2229940F5002E22DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"RevealLoader\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		B9FB6AF4229940F5002E22DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23N7FLLMNC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevealLoader/RevealLoader-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RevealLoader/Info.plist";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenhuafeng.revealloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9FB6AF5229940F5002E22DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23N7FLLMNC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevealLoader/RevealLoader-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RevealLoader/Info.plist";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenhuafeng.revealloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9FB6ACF229940F5002E22DF /* Build configuration list for PBXProject "RevealLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FB6AF1229940F5002E22DF /* Release */,
+				B9FB6AF2229940F5002E22DF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FB6AF3229940F5002E22DF /* Build configuration list for PBXNativeTarget "RevealLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FB6AF4229940F5002E22DF /* Release */,
+				B9FB6AF5229940F5002E22DF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9FB6ACC229940F5002E22DF /* Project object */;
+}

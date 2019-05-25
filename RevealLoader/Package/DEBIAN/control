@@ -1,0 +1,17 @@
+Package: com.chenhuafeng.RevealLoader
+Name: RevealLoader
+Version: 0.1-1
+Description: RevealLoader
+Section: System
+Depends: firmware (>= 8.0), mobilesubstrate, applist, preferenceloader
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: 陈华锋
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 陈华锋
+Icon: 
+

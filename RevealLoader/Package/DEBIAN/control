@@ -3,7 +3,7 @@ Name: RevealLoader
 Version: 0.1-1
 Description: RevealLoader
 Section: System
-Depends: firmware (>= 8.0), mobilesubstrate, applist, preferenceloader
+Depends: 
 Conflicts: 
 Replaces: 
 Priority: optional

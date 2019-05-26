@@ -7,19 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9FB6ADE229940F5002E22DF /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB6ADD229940F5002E22DF /* CydiaSubstrate.framework */; };
 		B9FB6B0F22994A0D002E22DF /* RevealLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FB6B0D22994A0D002E22DF /* RevealLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B9FB6AD6229940F5002E22DF /* RevealLoader.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = RevealLoader.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9FB6ADD229940F5002E22DF /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
 		B9FB6AE2229940F5002E22DF /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
-		B9FB6AE6229940F5002E22DF /* RevealLoader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RevealLoader.plist; path = Package/Library/PreferenceLoader/Preferences/RevealLoader.plist; sourceTree = "<group>"; };
-		B9FB6AE8229940F5002E22DF /* reveal-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal-logo@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/reveal-logo@2x.png"; sourceTree = "<group>"; };
 		B9FB6AF0229940F5002E22DF /* RevealLoader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RevealLoader.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/RevealLoader.plist; sourceTree = "<group>"; };
 		B9FB6B0D22994A0D002E22DF /* RevealLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealLoader.m; sourceTree = "<group>"; };
-		B9FB6B12229950CB002E22DF /* reveal-logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal-logo@3x.png"; path = "Package/Library/PreferenceLoader/Preferences/reveal-logo@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,7 +22,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9FB6ADE229940F5002E22DF /* CydiaSubstrate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +48,6 @@
 		B9FB6AD8229940F5002E22DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B9FB6ADD229940F5002E22DF /* CydiaSubstrate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,28 +82,9 @@
 		B9FB6AE3229940F5002E22DF /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				B9FB6AE4229940F5002E22DF /* PreferenceLoader */,
 				B9FB6AEE229940F5002E22DF /* MobileSubstrate */,
 			);
 			name = Library;
-			sourceTree = "<group>";
-		};
-		B9FB6AE4229940F5002E22DF /* PreferenceLoader */ = {
-			isa = PBXGroup;
-			children = (
-				B9FB6AE5229940F5002E22DF /* Preferences */,
-			);
-			name = PreferenceLoader;
-			sourceTree = "<group>";
-		};
-		B9FB6AE5229940F5002E22DF /* Preferences */ = {
-			isa = PBXGroup;
-			children = (
-				B9FB6AE6229940F5002E22DF /* RevealLoader.plist */,
-				B9FB6AE8229940F5002E22DF /* reveal-logo@2x.png */,
-				B9FB6B12229950CB002E22DF /* reveal-logo@3x.png */,
-			);
-			name = Preferences;
 			sourceTree = "<group>";
 		};
 		B9FB6AE9229940F5002E22DF /* Supporting Files */ = {

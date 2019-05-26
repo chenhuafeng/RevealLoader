@@ -5,3 +5,5 @@ Packages/com.chenhuafeng.RevealLoader_0.1-1_iphoneos-arm.deb
 Packages/com.chenhuafeng.RevealLoader_0.1-1_iphoneos-arm.zip
 RevealLoader.xcodeproj/project.xcworkspace/xcuserdata/chenhuafeng.xcuserdatad/UserInterfaceState.xcuserstate
 RevealLoader/Package/Library/MobileSubstrate/DynamicLibraries/RevealLoader.dylib
+RevealLoader.xcodeproj/xcuserdata/chenhuafeng.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+RevealLoader/Package/Library/MobileSubstrate/DynamicLibraries/RevealServer
